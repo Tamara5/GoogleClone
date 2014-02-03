@@ -1,0 +1,139 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+body {
+	width:100%;
+	height:100%;
+}
+
+.container {
+width: 100%;
+height: 100%;
+padding: 0px;
+margin: 0px;
+border: 1px transparent;
+min-width:800px;
+}
+
+#nav {
+background-color: #333333;
+height:30px;
+}
+
+a {
+text-decoration: none;
+font-family: arial;
+color: #ABABAB;
+float: left;
+padding: 5px;
+font-size: 13px;
+font-weight: 600;
+margin-top: 2px;
+margin-right: 10px;
+margin-left:10px;
+}
+
+img {
+margin: 0 auto;
+margin-left:150px;
+}
+
+#sign {
+background-color: blue;
+height: 16px;
+width: 65px;
+float: right;
+margin-right: 20px;
+margin-top: 10px;
+border-radius: 3px;
+font-size: 11px;
+font-family: arial;
+text-align: center;
+color: white;
+font-weight: 600;
+padding-top: 7px;
+}
+
+.middle {
+	border:1px solid transparent;
+	height: 200px;
+	width: 600px;
+	margin: 0 auto;
+	top: 150px;
+	position:relative;
+}
+
+.anotherbox {
+	margin: 0 auto;
+	width:250px;
+	height:25px;
+	border: 1px transparent;
+	position:relative;
+	top: 10px; 
+}
+
+input {
+width: 550px;
+height: 25px;
+border: 1px solid #3492F7;
+margin-left: 180px;
+color:#ABABAB;
+margin-left:20px;
+}
+
+
+
+}
+
+#search {
+	width:90px;
+	height:25px;
+	border: 1px solid #dddddd;
+	border-radius:;
+	background-color: #eeeeee;
+	font-size: 11px;
+	font-family: arial;
+	color:#555555;
+	font-weight: 500;
+	position:relative;
+	display:block;
+	float:left;
+	}
+
+#lucky {
+	width:120px;
+	height:25px;
+	border:1px solid #dddddd;
+	background-color: #eeeeee;
+	font-size: 11px;
+	font-family: arial;
+	color:#555555;
+	font-weight: 500;
+	display:block;
+	position:relative;
+	float:right;
+	}
+
+
+.thirdbox {
+	float:right;
+}	
+
+#footer {
+position:absolute;
+height: 35px;
+width:100%;
+clear:both;
+font-family: verdana;
+background-color:#eeeeee;
+bottom:0px;
+min-width: 800px;
+}
+
+
+
+
+
